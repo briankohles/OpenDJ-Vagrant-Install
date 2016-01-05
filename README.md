@@ -1,6 +1,6 @@
 # OpenDJ installer for Vagrant
 
-This vagrant will setup an OpenDJ server running 3 instances (2 DS & 1 RS).
+This vagrant will setup an OpenDJ server
 
 The following will be used to setup the instance:
 
