@@ -14,8 +14,7 @@ The following will be used to setup the instance:
 
 # Requirements
 
-- The [https://backstage.forgerock.com/downloads/enterprise/opendj/2.6.0/OpenDJ-2.6.0.zip
-](OpenDJ 2.6.x zip installer), downloaded from:
+- The [OpenDJ 2.6.x zip installer](https://backstage.forgerock.com/downloads/enterprise/opendj/2.6.0/OpenDJ-2.6.0.zip), downloaded from ForgeRock.com
   - Must be downloaded & placed into the "install" directory
 
 # Notes
