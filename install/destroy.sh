@@ -8,7 +8,6 @@
 
 # delete the opendj installs
 
-rm -rf opendj
+rm -rf install/opendj
 rm -rf opendj-DS1
-rm -rf opendj-DS2
-rm -rf opendj-RS1
+rm -rf .vagrant

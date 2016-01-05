@@ -24,6 +24,6 @@ cp /vagrant/install/config/tools.properties $HOME/.opendj/tools.properties
 
 # add the opendj binary path to our path
 echo "# Adding openDJ to our path" >> "$HOME/.profile"
-echo "PATH="/vagrant/opendj-DS1/bin:$PATH" >> "$HOME/.profile"
+echo "PATH=/vagrant/opendj-DS1/bin:$PATH" >> "$HOME/.profile"
 
 source "$HOME/.profile"
