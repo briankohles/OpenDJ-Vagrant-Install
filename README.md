@@ -12,6 +12,8 @@ The following will be used to setup the instance:
 | __port:__             | 2389                 |
 | __adminPort:__        | 4444                 |
 
+**NOTE:** These values are also set in the "~/.opendj/tools.properties" file for the vagrant user
+
 # Requirements
 
 - [VirtualBox](https://www.virtualbox.org/)
