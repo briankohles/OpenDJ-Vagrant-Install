@@ -29,7 +29,10 @@ git clone https://github.com/briankohles/OpenDJ-Vagrant-Install
 cd OpenDJ-Vagrant-Install
 ```
 
-3) Startup and SSH with Virtual Box
+3) Download and place the OpenDJ zip download
+  - copy the "OpenDJ-2.*.zip file to OpenDJ-Vagrant-Install/install/
+
+4) Startup and SSH with Virtual Box
 
 ```
 vagrant up
