@@ -29,9 +29,7 @@ git clone https://github.com/briankohles/OpenDJ-Vagrant-Install
 cd OpenDJ-Vagrant-Install
 ```
 
-3) Startup and SSH
-
-**VirtualBox Provider**
+3) Startup and SSH with Virtual Box
 
 ```
 vagrant up
