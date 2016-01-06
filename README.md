@@ -14,16 +14,34 @@ The following will be used to setup the instance:
 
 **NOTE:** These values are also set in the "~/.opendj/tools.properties" file for the vagrant user
 
-# Requirements
+## Streamlined Setup
 
-- [VirtualBox](https://www.virtualbox.org/)
-  - Currently this install only supports virtualbox as a provider
-- [Vagrant](https://www.vagrantup.com/)
-  - Vagrant is needed if you don't have it
-- [OpenDJ 2.6.x zip installer](https://backstage.forgerock.com/downloads/enterprise/opendj/2.6.0/OpenDJ-2.6.0.zip)
-  - Must be downloaded & placed into the "install" directory
-  - You will need a ForgeRock account in order to download this. The ForgeRock version of "Open Source" is pretty limited so I'll probably switch to a more open directory in the future.
+1) Install Dependencies
+
+* [VirtualBox][virtualbox]
+- [Vagrant][vagrant]
+- [OpenDJ 2.6.x zip installer][opendj]
+  - Must be downloaded & placed into the "install" directory, a ForgeRock accounts is needed to download
+
+2) Clone this project
+```
+git clone https://github.com/briankohles/OpenDJ-Vagrant-Install
+cd OpenDJ-Vagrant-Install
+```
+
+3) Startup and SSH
+
+**VirtualBox Provider**
+
+```
+vagrant up
+vagrant ssh
+```
 
 # Notes
 
 - This has only been tested with OpenDJ 2.6.0 available from forgerock.org
+
+[virtualbox]: https://www.virtualbox.org/
+[vagrant]: https://www.vagrantup.com/downloads.html
+[opendj]: https://backstage.forgerock.com/downloads/enterprise/opendj/2.6.0/OpenDJ-2.6.0.zip

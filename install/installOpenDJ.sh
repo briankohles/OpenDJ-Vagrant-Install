@@ -19,9 +19,11 @@ cp -a /vagrant/install/opendj /vagrant/opendj-DS1
 /vagrant/opendj-DS1/setup --cli --no-prompt --rootUserDN "cn=Directory Manager" --rootUserPassword 'Password01!' --ldapPort 2389 --adminConnectorPort 4444 --baseDN "dc=example,dc=com" --addBaseEntry --acceptLicense
 
 # copy the OpenDJ tools file to set defaults like passwords
+# TODO: this is failing
 mkdir $HOME/.opendj
 cp /vagrant/install/config/tools.properties $HOME/.opendj/tools.properties
 
 # add the opendj binary path to our path
+# TODO: this is failing
 echo "# Adding openDJ to our path" >> "$HOME/.profile"
 echo "PATH=/vagrant/opendj-DS1/bin:$PATH" >> "$HOME/.profile"
