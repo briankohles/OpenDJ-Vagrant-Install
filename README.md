@@ -39,9 +39,20 @@ vagrant up
 vagrant ssh
 ```
 
+5) Test the LDAP server
+
+```
+/vagrant/opendj-DS1/bin/ldapsearch -h localhost -p 2389 -b "dc=example,dc=com" "objectclass=*" "*"
+```
+
 # Notes
 
 - This has only been tested with OpenDJ 2.6.0 available from forgerock.org
+
+# TODO:
+
+- cleanup java install to only install whats needed
+- change installs to be more quiet
 
 [virtualbox]: https://www.virtualbox.org/
 [vagrant]: https://www.vagrantup.com/downloads.html
